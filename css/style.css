@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+    color: black;
+    padding: 24px;
+    line-height: 1.6;
+}
+
+h1 {
+    color: green;
+    margin-bottom: 16px;
+}
+h2 {
+    color: burlywood;
+    margin-top: 32px;
+    margin-bottom: 12px;
+    padding-top: 8px;
+    border-top: 1px solid rgba(0,0,0,0.1);
+}
+
+a {
+    color: #06c;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 16px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.12);
+}
+
+ul, ol {
+    padding-left: 24px; /* fixes list indentation */
+}
+
+li {
+    margin: 6px 0;
+}
+
+p {
+    max-width: 70ch;
+}
+
+.container {
+    max-width: 900px;
+    margin 0 auto;
+    padding: 24px;
+}
